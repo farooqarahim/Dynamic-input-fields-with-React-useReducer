@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  margin: 5px auto auto;
+}
+
+.InputField {
+  height: 44px;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  border: 1px solid #2196f3;
+  color: #2196f3;
+  outline: none !important;
+}
+
+.button {
+  height: 44px;
+  border: none;
+  padding: 0 10px;
+  margin: 0 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 11px;
+  outline: none !important;
+  letter-spacing: 0.05em;
+}
+
+button.remove-button {
+  background-color: #2196f3;
+  margin: auto auto auto 0px;
+  width: 70px;
+}
+
+button.remove-button:hover {
+  background-color: #f57229;
+  color: #fff;
+}
+
+button.add-button {
+  background-color: #fff;
+  margin: 10px;
+  width: 350px;
+  color: #02b909;
+  border: 1px solid #02b909;
+}
+
+button.add-button:hover {
+  background-color: #02b909;
+  color: #fff;
+}
+
+.nothing {
+  margin: 10px auto;
+  font-size: 14px;
+  color: #bbbbbb;
+  letter-spacing: 0.05em;
+}
